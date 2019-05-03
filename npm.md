@@ -6,3 +6,7 @@
 ### To install an npm package through github:  
 1. In custom package, Run `npm run build`   
 2. In our package.json, `'custom-package': "github:organization-name/custom-package"` and run `npm install`   
+
+### Delete& Re-install local custom module   
+`rm -rf node_module/custom-package && npm install`
+ 
