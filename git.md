@@ -66,3 +66,6 @@ Step 3: push to GitHub.
 - The easiest way would be to find the head commit of the branch as it was immediately before the rebase started in the reflog... and to reset the current branch to it (with the usual caveats about being absolutely sure before reseting with the --hard option).  
 - Suppose the old commit was `HEAD@{5}` in the ref log  
 - > git reset --hard HEAD@{5}  
+
+### Update file permissions (esp. script files)   
+> `git update-index --chmod=+x release.sh`   
